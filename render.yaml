@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: My NodeJs Blog
+    env: node
+    buildCommand: npm install npm run build
+    startCommand: npm start
